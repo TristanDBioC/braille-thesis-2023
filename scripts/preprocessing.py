@@ -37,7 +37,6 @@ def toGrayscale(image_file, data_type, iteration):
 	return output_filepath
 
 
-
 def gaussianSmoothing(image_file, data_type, iteration):
 	output_filepath = filepathGenerator(image_file, data_type, iteration)
 	img = cv.imread(image_file)
