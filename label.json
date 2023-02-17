@@ -1,0 +1,804 @@
+{
+  "Version":"2.0.0",
+  "Next_Label":"a",
+  "Label_Set":[
+    {
+      "Name":"",
+      "Attributes":[],
+      "ROI_Color":{"R":128,"G":0,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"a",
+      "Attributes":[],
+      "ROI_Color":{"R":0,"G":128,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"b",
+      "Attributes":[],
+      "ROI_Color":{"R":128,"G":128,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":false,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"c",
+      "Attributes":[],
+      "ROI_Color":{"R":0,"G":0,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"d",
+      "Attributes":[],
+      "ROI_Color":{"R":128,"G":0,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"e",
+      "Attributes":[],
+      "ROI_Color":{"R":0,"G":128,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"f",
+      "Attributes":[],
+      "ROI_Color":{"R":128,"G":128,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"g",
+      "Attributes":[],
+      "ROI_Color":{"R":64,"G":0,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"h",
+      "Attributes":[],
+      "ROI_Color":{"R":192,"G":0,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"i",
+      "Attributes":[],
+      "ROI_Color":{"R":64,"G":128,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"j",
+      "Attributes":[],
+      "ROI_Color":{"R":192,"G":128,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"k",
+      "Attributes":[],
+      "ROI_Color":{"R":64,"G":0,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"l",
+      "Attributes":[],
+      "ROI_Color":{"R":192,"G":0,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"m",
+      "Attributes":[],
+      "ROI_Color":{"R":64,"G":128,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"n",
+      "Attributes":[],
+      "ROI_Color":{"R":192,"G":128,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"o",
+      "Attributes":[],
+      "ROI_Color":{"R":0,"G":64,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"p",
+      "Attributes":[],
+      "ROI_Color":{"R":128,"G":64,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"q",
+      "Attributes":[],
+      "ROI_Color":{"R":0,"G":192,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"r",
+      "Attributes":[],
+      "ROI_Color":{"R":128,"G":192,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"s",
+      "Attributes":[],
+      "ROI_Color":{"R":0,"G":64,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"t",
+      "Attributes":[],
+      "ROI_Color":{"R":128,"G":64,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"u",
+      "Attributes":[],
+      "ROI_Color":{"R":0,"G":192,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"v",
+      "Attributes":[],
+      "ROI_Color":{"R":128,"G":192,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"w",
+      "Attributes":[],
+      "ROI_Color":{"R":64,"G":64,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"x",
+      "Attributes":[],
+      "ROI_Color":{"R":192,"G":64,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"y",
+      "Attributes":[],
+      "ROI_Color":{"R":64,"G":192,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"z",
+      "Attributes":[],
+      "ROI_Color":{"R":192,"G":192,"B":0,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"4",
+      "Attributes":[],
+      "ROI_Color":{"R":64,"G":64,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    },
+    {
+      "Name":"5",
+      "Attributes":[],
+      "ROI_Color":{"R":192,"G":64,"B":128,"A":128},
+      "Flags":{
+        "Suppress_Label":false,
+        "Suppress_Color":false,
+        "Suppress_Attrib":true,
+        "Label_Marked":false,
+        "Hide":false
+      }
+    }
+  ],
+  "Annotations":[
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\10ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\11ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\12ABCD.jpg",
+      "Labels":[
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        }
+      ],
+      "ROIs":{
+        "Global Rectangle":[83,115,120,426],
+        "Contours":[
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[87,115,104,136]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[86,149,102,174]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[85,184,102,207]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[84,257,100,278]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[85,220,102,242]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[84,293,102,313]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[106,116,120,137]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[105,148,119,173]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[104,184,120,207]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[104,219,119,243]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[104,257,118,277]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[104,294,119,315]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[104,329,119,352]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[84,329,100,350]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[83,365,100,388]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[83,403,99,426]
+          }
+        ]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\13ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\14ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\15ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\16ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\17ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\18ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\19ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\1ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\20ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\21ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\22ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\23ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\24ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\25ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\26ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\27ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\2ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\3ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\4ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\5ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\6ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\7ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\8ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    },
+    {
+      "Path":"E:\\School Stuff\\braille thesis 2023\\preprocessed\\training\\D\\9ABCD.jpg",
+      "Labels":[],
+      "ROIs":{
+        "Global Rectangle":[],
+        "Contours":[]
+      },
+      "imgMarked":false,
+      "imgInfo":{"Name":""}
+    }
+  ]
+}
