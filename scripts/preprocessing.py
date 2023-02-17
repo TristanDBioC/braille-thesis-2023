@@ -4,7 +4,7 @@ import os
 
 # used to systematically generate a filename
 def filepathGenerator(original_path, data_type, iteration):
-	output_dir = '..\\preprocessed\\{}\\_All\\'.format(data_type, iteration)
+	output_dir = '..\\preprocessed\\{}\\{}\\'.format(data_type, iteration)
 	try:
 		os.makedirs(output_dir)
 	except:
@@ -62,7 +62,7 @@ def imageAdaptiveGaussThresh(image_file, max_val, size, compensation,  data_type
 
 
 #defining the directory of the raw data
-directory = "../junk"
+directory = "../Raw Data/training data"
 
 
 for filename in os.listdir(directory):
@@ -70,6 +70,6 @@ for filename in os.listdir(directory):
 	f = reduceResolution(f, 0.25, 'training', 'A')
 	f = toGrayscale(f, 'training', 'B')
 	f = gaussianSmoothing(f, 'training', 'C')
-	for i in [3, 5, 7, 9, 11, 13]:
-		for j in range(1, 15):
-			imageAdaptiveGaussThresh(f, 255, i, j, 'training', 'D_{}_{}'.format(i,j))
+	imageAdaptiveGaussThresh(f, 255, 19, 20, 'training', 'D')
+	#imageAdaptiveGaussThresh(f, 255, 13, 10, 'testing', 'D1310')
+	#imageAdaptiveGaussThresh(f, 255, 13, 10, 'testing', 'D119')
