@@ -1,6 +1,6 @@
 {
   "Version":"2.0.0",
-  "Next_Label":"4",
+  "Next_Label":"g",
   "Label_Set":[
     {
       "Name":"",
@@ -68851,10 +68851,1772 @@
     },
     {
       "Path":"C:\\Users\\USER\\Documents\\0 SCHOOL\\braille-thesis-2023\\preprocessed\\training\\C\\2ABC.jpg",
-      "Labels":[],
+      "Labels":[
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"a",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"b",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"c",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"d",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"e",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"f",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"g",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        }
+      ],
       "ROIs":{
-        "Global Rectangle":[],
-        "Contours":[]
+        "Global Rectangle":[110,112,396,844],
+        "Contours":[
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[382,114,396,134]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[365,145,380,168]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[365,181,378,205]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[365,217,378,238]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[365,253,379,272]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[366,290,380,312]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[367,327,380,348]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[366,363,381,384]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[367,401,380,421]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[367,437,380,459]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[367,477,380,497]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[368,514,381,534]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[368,550,382,571]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[368,588,382,610]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[367,625,381,648]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[369,665,382,686]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[369,703,382,724]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[368,741,381,764]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[368,780,382,804]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[368,819,382,842]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[111,819,127,840]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[111,781,127,804]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[110,742,127,765]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[112,703,127,726]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[112,665,127,687]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[112,627,127,650]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[112,589,127,610]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[113,551,127,573]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[113,514,127,536]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[115,477,128,499]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[116,438,128,458]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[116,400,129,419]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[116,363,129,381]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[117,327,130,345]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[118,291,130,310]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[118,255,132,272]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[118,219,133,237]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[120,184,134,204]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[120,148,134,168]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[122,113,135,134]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[129,819,146,841]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[129,780,146,803]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[129,742,146,766]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[129,704,147,727]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[130,664,146,687]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[129,628,147,651]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[130,590,146,611]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[131,552,146,574]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[131,513,149,537]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[132,477,149,500]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[133,438,148,459]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[133,400,148,421]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[133,363,149,385]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[134,326,148,347]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[134,290,148,310]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[135,254,149,275]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[136,219,150,240]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[136,183,152,206]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[137,148,152,171]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[138,114,152,135]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[155,114,173,137]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[154,147,171,172]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[154,183,171,204]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[152,218,169,239]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[152,253,169,275]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[151,289,170,311]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[150,326,168,347]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[151,363,168,385]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[150,400,168,421]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[151,437,168,460]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[150,477,168,501]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[150,513,167,536]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[149,551,167,574]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[148,589,166,611]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[148,626,166,651]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[147,665,165,689]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[148,703,165,728]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[148,742,164,765]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[147,780,164,803]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[148,819,164,842]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[165,819,182,843]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[165,780,182,805]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[165,742,183,767]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[166,703,183,729]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[166,665,184,690]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[167,627,184,652]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[167,589,185,613]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[168,551,185,575]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[168,514,186,539]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[169,477,186,501]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[169,437,186,461]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[169,400,187,423]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[169,363,186,386]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[169,326,186,349]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[171,290,187,311]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[169,253,187,276]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[170,218,187,240]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[172,183,188,204]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[172,147,189,172]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[190,113,207,137]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[208,112,224,138]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[190,147,206,172]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[189,183,205,204]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[188,217,205,241]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[188,254,205,277]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[187,290,204,312]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[187,326,205,350]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[187,363,205,386]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[188,400,204,422]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[187,437,203,460]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[187,477,204,501]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[187,514,204,539]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[186,551,203,576]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[185,589,203,613]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[185,627,202,653]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[185,665,202,690]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[184,703,201,728]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[183,743,200,768]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[184,781,200,805]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[184,820,200,844]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[202,819,218,843]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[202,781,219,805]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[202,743,219,767]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[202,703,219,728]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[203,666,219,690]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[203,627,220,652]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[204,590,221,614]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[204,551,221,576]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[205,514,221,539]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[204,477,221,500]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[204,437,221,460]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[205,400,221,423]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[206,363,221,386]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[206,326,221,351]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[206,254,222,277]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[205,290,222,313]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[206,218,222,240]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[206,183,223,206]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[207,148,224,172]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[225,113,241,138]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[242,113,259,139]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[224,148,241,172]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[224,183,240,206]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[223,218,240,244]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[223,254,239,277]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[223,289,238,314]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[222,327,239,350]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[222,362,239,386]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[222,400,239,423]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[222,437,239,460]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[222,477,239,500]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[222,514,239,539]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[223,551,238,577]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[222,590,238,613]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[221,627,238,652]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[220,665,237,690]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[221,704,238,727]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[221,742,237,766]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[221,781,237,806]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[221,819,236,844]
+          }
+        ]
       },
       "imgMarked":false,
       "imgInfo":{
