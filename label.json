@@ -87277,10 +87277,78 @@
     },
     {
       "Path":"C:\\Users\\USER\\Documents\\0 SCHOOL\\braille-thesis-2023\\preprocessed\\training\\C\\5ABC.jpg",
-      "Labels":[],
+      "Labels":[
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        },
+        {
+          "Name":"4",
+          "Creation":"MAN",
+          "Attributes":[],
+          "Flags":{"Selection":false,"Ignore":false}
+        }
+      ],
       "ROIs":{
-        "Global Rectangle":[],
-        "Contours":[]
+        "Global Rectangle":[362,111,395,309],
+        "Contours":[
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[381,111,395,131]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[364,145,378,168]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[362,180,378,202]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[363,215,378,236]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[363,252,379,273]
+          },
+          {
+            "Contour Type":0,
+            "ROI Type":3,
+            "Points":[364,288,379,309]
+          }
+        ]
       },
       "imgMarked":false,
       "imgInfo":{
