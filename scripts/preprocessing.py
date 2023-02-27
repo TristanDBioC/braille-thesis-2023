@@ -51,13 +51,14 @@ def imageBinaryThresholding(image_file, threshold_value, max_val,  data_type, it
 	cv.imwrite(output_filepath,thresh)
 	return output_filepath
 
+'''
 def imageAdaptiveGaussThresh(image_file, max_val, size, compensation,  data_type, iteration):
 	output_filepath = filepathGenerator(image_file, data_type, iteration)
 	img = cv.imread(image_file, 0)
 	thresh = cv.adaptiveThreshold(img, max_val, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY, size, compensation)
 	cv.imwrite(output_filepath,thresh)
 	return output_filepath
-
+'''
 
 
 
@@ -70,6 +71,3 @@ for filename in os.listdir(directory):
 	f = reduceResolution(f, 0.25, 'training', 'A')
 	f = toGrayscale(f, 'training', 'B')
 	f = gaussianSmoothing(f, 'training', 'C')
-	imageAdaptiveGaussThresh(f, 255, 19, 20, 'training', 'D')
-	#imageAdaptiveGaussThresh(f, 255, 13, 10, 'testing', 'D1310')
-	#imageAdaptiveGaussThresh(f, 255, 13, 10, 'testing', 'D119')
