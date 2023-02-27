@@ -37,7 +37,7 @@ def toGrayscale(image_file, data_type, iteration):
 	return output_filepath
 
 
-def gaussianSmoothing(image_file, data_type, iteration):
+def denoising(image_file, data_type, iteration):
 	output_filepath = filepathGenerator(image_file, data_type, iteration)
 	img = cv.imread(image_file)
 	blur = cv.blur(img,(3,3))
@@ -55,7 +55,7 @@ def imageBinaryThresholding(image_file, threshold_value, max_val,  data_type, it
 def imageAdaptiveGaussThresh(image_file, max_val, size, compensation,  data_type, iteration):
 	output_filepath = filepathGenerator(image_file, data_type, iteration)
 	img = cv.imread(image_file, 0)
-	thresh = cv.adaptiveThreshold(img, max_val, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY, size, compensation)
+	thresh = cv.adaptiveThreshold(img, max_val, cv.ADAPTIVE_THRESH__C, cv.THRESH_BINARY, size, compensation)
 	cv.imwrite(output_filepath,thresh)
 	return output_filepath
 '''
@@ -70,4 +70,4 @@ for filename in os.listdir(directory):
 	f = os.path.join(directory, filename)
 	f = reduceResolution(f, 0.25, 'training', 'A')
 	f = toGrayscale(f, 'training', 'B')
-	f = gaussianSmoothing(f, 'training', 'C')
+	f = denoising(f, 'training', 'C')
