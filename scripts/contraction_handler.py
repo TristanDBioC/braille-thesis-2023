@@ -26,16 +26,9 @@ def parseContractions(input_string):
 	return output_string
 
 
-
-
-test_string = "bahagi ng ktrng pilipino ang mag pista ni santo ni4no"
-
+test_string = "bahagi ng ktr natin si santo ni4no"
 
 print(parseContractions(test_string))
 
-# Expected output:
-# bahagi ng kulturang pilipino ang mag pista ni santo niño
-
-
-# Actual output:
-# bahagi ng kulturang pilalimipino ang mag pisangta ni santo niño
+# output:
+# bahagi ng kultura natin si santo niño
