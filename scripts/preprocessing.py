@@ -44,6 +44,7 @@ def denoising(image_file, data_type, iteration):
 	cv.imwrite(output_filepath,blur)
 	return output_filepath
 
+'''
 def imageBinaryThresholding(image_file, threshold_value, max_val,  data_type, iteration):
 	output_filepath = filepathGenerator(image_file, data_type, iteration)
 	img = cv.imread(image_file, 0)
@@ -51,7 +52,7 @@ def imageBinaryThresholding(image_file, threshold_value, max_val,  data_type, it
 	cv.imwrite(output_filepath,thresh)
 	return output_filepath
 
-'''
+
 def imageAdaptiveGaussThresh(image_file, max_val, size, compensation,  data_type, iteration):
 	output_filepath = filepathGenerator(image_file, data_type, iteration)
 	img = cv.imread(image_file, 0)

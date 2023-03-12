@@ -26,7 +26,7 @@ def parseContractions(input_string):
 	return output_string
 
 
-test_string = "bahagi ng ktr natin si santo ni4no"
+test_string = "bahagi ng ktr ang ccs"
 
 print(parseContractions(test_string))
 

@@ -1,16 +1,35 @@
 import pandas as pd
-import json
+import matplotlib.pyplot as plt
+from matplotlib import patches
 
 
-contraction_df = pd.read_excel('..\\Contraction dictionary.xlsx', sheet_name='Sheet1')
 
-contraction_dict = {}
-
-for i, row, in contraction_df.iterrows():
-	contraction_dict[row['contraction']] = row['expanded word']
+imagePath = '..\\preprocessed\\training\\C\\'
+imageFile = '1ABC.jpg'
 
 
-json_data = json.dumps(contraction_dict, indent=4)
+train = pd.read_csv('..\\labels.csv')
+train.head()
 
-with open('..\\contractions.json','w') as f:
-	f.write(json_data)
+fig = plt.figure()
+
+ax = fig.add_axes([0,0,1,1])
+
+image = plt.imread(imagePath+imageFile)
+
+
+for _,row in train[train.image_path == imageFile].iterrows():
+	xmin = row.xmin
+	xmax = row.xmax
+	ymin = row.ymin
+	ymax = row.ymax
+
+	width = xmax - xmin
+	height = ymax - ymin
+	ax.annotate(str(row.braille_name),xy=(xmin,ymin))
+
+	rect = patches.Rectangle((xmin,ymin), width, height, edgecolor='r', facecolor = 'none')
+	ax.add_patch(rect)
+
+plt.imshow(image)
+plt.show()
