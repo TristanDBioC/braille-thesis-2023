@@ -1,6 +1,3 @@
-h5py
-tensorflow
-Keras
-numpy
-opencv-python
-sklearn
+pandas
+matplotlib
+pillow
