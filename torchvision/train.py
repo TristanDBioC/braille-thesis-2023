@@ -84,7 +84,7 @@ lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.1
 
 
 # Define checkpointing interval
-checkpoint_interval = 100
+checkpoint_interval = 1
 
 # Define directory to save checkpoints
 checkpoint_dir = 'checkpoints/'
@@ -127,7 +127,7 @@ if __name__ == '__main__':
             optimizer.step()
             lr_scheduler.step()
 
-            if (batch_idx + 1) % checkpoint_interval == 0:
+            if ((batch_idx + 1) % checkpoint_interval == 0) or (batch_idx+1 == len(train_loader)):
                 checkpoint_path = os.path.join(checkpoint_dir, f'checkpoint_{epoch+1}_{batch_idx+1}.pth')
                 torch.save({
                     'model_state_dict': model.state_dict(),
