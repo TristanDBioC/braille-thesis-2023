@@ -64,11 +64,11 @@ def imageAdaptiveGaussThresh(image_file, max_val, size, compensation,  data_type
 
 
 #defining the directory of the raw data
-directory = "../Raw Data/training data"
+directory = "../Raw Data/testing data"
 
 
 for filename in os.listdir(directory):
 	f = os.path.join(directory, filename)
-	f = reduceResolution(f, 0.25, 'training', 'A')
-	f = toGrayscale(f, 'training', 'B')
-	f = denoising(f, 'training', 'C')
+	f = reduceResolution(f, 0.25, 'testing', 'A')
+	f = toGrayscale(f, 'testing', 'B')
+	f = denoising(f, 'testing', 'C')
