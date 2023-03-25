@@ -64,7 +64,7 @@ def imageAdaptiveGaussThresh(image_file, max_val, size, compensation,  data_type
 
 
 #defining the directory of the raw data
-directory = "../Raw Data/testing data"
+directory = "..//Raw Data//testing data"
 
 
 for filename in os.listdir(directory):
