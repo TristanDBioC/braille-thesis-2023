@@ -62,8 +62,8 @@ train_dataset, test_dataset = torch.utils.data.random_split(dataset, [train_size
 def collate_fn(batch):
     return tuple(zip(*batch))
 
-train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=4, shuffle=False, num_workers=4, collate_fn=collate_fn)
-test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=4, shuffle=False, num_workers=4, collate_fn=collate_fn)
+train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=1, shuffle=False, num_workers=4, collate_fn=collate_fn)
+test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=4, collate_fn=collate_fn)
 
 # Define device
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
@@ -84,7 +84,7 @@ lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.1
 
 
 # Define checkpointing interval
-checkpoint_interval = 1
+checkpoint_interval = 1000
 
 # Define directory to save checkpoints
 checkpoint_dir = 'checkpoints/'
@@ -102,7 +102,6 @@ if latest_checkpoint is not None:
     start_epoch = checkpoint['epoch']
     start_batch = checkpoint['batch']
     print(f"Loaded checkpoint {checkpoint_path}, starting from epoch {start_epoch+1} and batch {start_batch+1}")
-
 
 # Train the model
 if __name__ == '__main__':
