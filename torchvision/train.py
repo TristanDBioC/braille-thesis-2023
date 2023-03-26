@@ -1,6 +1,8 @@
 import pandas as pd
 import torch
 import torchvision
+from torchvision.models.detection import FasterRCNN
+from torchvision.models.detection.rpn import AnchorGenerator
 import numpy as np
 from PIL import Image
 import os
@@ -73,6 +75,12 @@ model = torchvision.models.detection.fasterrcnn_resnet50_fpn()
 num_classes = len(dataset.labels) + 1 # +1 for background
 in_features = model.roi_heads.box_predictor.cls_score.in_features
 model.roi_heads.box_predictor = torchvision.models.detection.faster_rcnn.FastRCNNPredictor(in_features, num_classes)
+
+# Define anchor sizes
+anchor_gen = AnchorGenerator(sizes=((4, 8, 16, 32, 64),),
+                                   aspect_ratios=((0.5, 1.0, 2.0),) * 5)
+model.rpn.anchor_generator = anchor_gen
+
 
 # Move model to device
 model.to(device)
