@@ -20,26 +20,8 @@ file_list_column = [
         )
     ],
     [
-        layout = [[sg.Button("Open New Window", key="-OPEN-")]]
-
-        window = sg.Window("Main Window", layout)
-
-        while True:
-            event, values = window.read()
-            if event == sg.WIN_CLOSED:
-                break
-            elif event == "-OPEN-":
-                new_layout = [[sg.Text("This is a new window!")], [sg.Button("Close", key="-CLOSE-")]]
-                new_window = sg.Window("New Window", new_layout)
-                while True:
-                    new_event, new_values = new_window.read()
-                    if new_event == sg.WIN_CLOSED or new_event == "-CLOSE-":
-                        break
-                new_window.close()
-
-        window.close()
-
-    ],
+        sg.Button("Open New Window", key="-OPEN-")
+    ]
 ]
 
 # For now will only show the name of the file that was chosen
@@ -57,6 +39,13 @@ layout = [
         sg.Column(image_viewer_column),
     ]
 ]
+
+layout2 = [
+        [sg.Button("Open New Window", key="-OPEN-")],
+        [sg.Text("Select an image file:")],
+        [sg.Input(key="-FILE-"), sg.FileBrowse()],
+        [sg.Button("Show Metadata"), sg.Button("Exit")]
+        ]
 
 window = sg.Window("Image Viewer", layout)
 
@@ -112,5 +101,7 @@ while True:
 
         except:
             pass
+    elif event == "-OPEN-":
+        window = sg.Window("Image Metadata Viewer", layout2)
 
 window.close()

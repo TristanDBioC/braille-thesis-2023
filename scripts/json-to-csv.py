@@ -3,8 +3,8 @@ import csv
 
 
 
-file = '..\\label.json'
-output_file = '..\\labels.csv'
+file = '..\\test.json'
+output_file = '..\\test.csv'
 
 new_data = [['image_path','label','xmin','ymin','xmax','ymax']]
 total_chars = 0
@@ -19,7 +19,7 @@ with open(file) as master_file:
 		rois = item['ROIs']['Contours']
 		total_chars += len(labels)
 		for i in range(len(labels)):
-			data = ['train_images\\'+item['Path'][60:],str(labels[i]['Name']),rois[i]['Points'][0],rois[i]['Points'][1],rois[i]['Points'][2],rois[i]['Points'][3]]
+			data = ['test_images\\'+item['Path'][60:],str(labels[i]['Name']),rois[i]['Points'][0],rois[i]['Points'][1],rois[i]['Points'][2],rois[i]['Points'][3]]
 			new_data.append(data)
 
 with open(output_file, 'w', newline='') as f:

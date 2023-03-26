@@ -509,7 +509,7 @@
   ],
   "Annotations":[
     {
-      "Path":"C:\\Users\\USER\\Documents\\0 SCHOOL\\braille-thesis-2023\\preprocessed\\testing\\C\\T1ABC.jpg",
+      "Path":"E:\\School Stuff\\braille-thesis-2023\\preprocessed\\testing\\C\\T1ABC.jpg",
       "Labels":[
         {
           "Name":"a",
@@ -1071,7 +1071,7 @@
       "imgInfo":{"Name":""}
     },
     {
-      "Path":"C:\\Users\\USER\\Documents\\0 SCHOOL\\braille-thesis-2023\\preprocessed\\testing\\C\\T2ABC.jpg",
+      "Path":"E:\\School Stuff\\braille-thesis-2023\\preprocessed\\testing\\C\\T2ABC.jpg",
       "Labels":[
         {
           "Name":"p",

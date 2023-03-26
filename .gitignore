@@ -1,3 +1,4 @@
 torchvision/checkpoints
 torchvision/latest_checkpoints
 torchvision/models
+torchvision_junk/
