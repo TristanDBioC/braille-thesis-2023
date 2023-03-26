@@ -22,6 +22,12 @@ num_classes = 42 # will manually define here to keep code short
 in_features = model.roi_heads.box_predictor.cls_score.in_features
 model.roi_heads.box_predictor = torchvision.models.detection.faster_rcnn.FastRCNNPredictor(in_features, num_classes)
 
+# Define anchor sizes
+anchor_gen = AnchorGenerator(sizes=((4, 8, 16, 32, 64),),
+                                   aspect_ratios=((0.5, 1.0, 2.0), * 5))
+model.rpn.anchor_generator = anchor_gen
+
+
 # loading the model
 model.load_state_dict(torch.load(model_pth))
 model.eval()
