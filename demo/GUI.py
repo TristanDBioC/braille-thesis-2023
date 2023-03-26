@@ -7,6 +7,7 @@ from PIL.ExifTags import TAGS
 
 # First the window layout in 2 columns
 
+
 file_list_column = [
     [
         sg.Text("Image Folder"),
@@ -17,6 +18,27 @@ file_list_column = [
         sg.Listbox(
             values=[], enable_events=True, size=(70, 30), key="-FILE LIST-"
         )
+    ],
+    [
+        layout = [[sg.Button("Open New Window", key="-OPEN-")]]
+
+        window = sg.Window("Main Window", layout)
+
+        while True:
+            event, values = window.read()
+            if event == sg.WIN_CLOSED:
+                break
+            elif event == "-OPEN-":
+                new_layout = [[sg.Text("This is a new window!")], [sg.Button("Close", key="-CLOSE-")]]
+                new_window = sg.Window("New Window", new_layout)
+                while True:
+                    new_event, new_values = new_window.read()
+                    if new_event == sg.WIN_CLOSED or new_event == "-CLOSE-":
+                        break
+                new_window.close()
+
+        window.close()
+
     ],
 ]
 
