@@ -1,55 +1,35 @@
-# img_viewer.py
-
+import os
 import PySimpleGUI as sg
-import os.path
 from PIL import Image
+import os.path
 from PIL.ExifTags import TAGS
 
-# First the window layout in 2 columns
+# function to get image metadata
+def get_image_metadata(filename):
+    with Image.open(filename) as img:
+        metadata = img._getexif()
+    return metadata
 
-
-file_list_column = [
-    [
-        sg.Text("Image Folder"),
-        sg.In(size=(50, 1), enable_events=True, key="-FOLDER-"),
-        sg.FolderBrowse(),
-    ],
-    [
-        sg.Listbox(
-            values=[], enable_events=True, size=(70, 30), key="-FILE LIST-"
-        )
-    ],
-    [
-        sg.Button("Open New Window", key="-OPEN-")
-    ]
-]
-
-# For now will only show the name of the file that was chosen
-image_viewer_column = [
-    [sg.Text("Choose an image from list on left:")],
-    [sg.Text(size=(20, 1), key="-TOUT-")],
-    [sg.Image(key="-IMAGE-")],
-]
-
-# ----- Full layout -----
+# define GUI layout
 layout = [
-    [
-        sg.Column(file_list_column),
-        sg.VSeperator(),
-        sg.Column(image_viewer_column),
-    ]
+    [sg.Text("Select a folder:"),
+    sg.FolderBrowse(key="-FOLDER-")],
+    [sg.Text("Files in folder:")],
+    [sg.Column([
+        [sg.Listbox(values=[], size=(70, 30), key="-FILE LIST-", enable_events=True)]
+    ]),
+    sg.VSeperator(),
+    sg.Column([
+        [sg.Text("Selected image metadata:")],
+        [sg.Text(size=(20, 1), key="-METADATA-")],
+    ])],
+    [sg.Button("Open new window")]
 ]
 
-layout2 = [
-        [sg.Button("Open New Window", key="-OPEN-")],
-        [sg.Text("Select an image file:")],
-        [sg.Input(key="-FILE-"), sg.FileBrowse()],
-        [sg.Button("Show Metadata"), sg.Button("Exit")]
-        ]
 
-window = sg.Window("Image Viewer", layout)
+# create the GUI window
+window = sg.Window("Image Metadata Viewer", layout)
 
-# Run the Event Loop
 while True:
     event, values = window.read()
     if event == "Exit" or event == sg.WIN_CLOSED:
@@ -70,38 +50,28 @@ while True:
             
         ]
         window["-FILE LIST-"].update(fnames)
-    elif event == "-FILE LIST-":  # A file was chosen from the listbox
-        try:
-            image = Image.open(fnames)
 
-            info_dict = {
-            "Filename": image.filename,
-            "Image Size": image.size,
-            "Image Height": image.height,
-            "Image Width": image.width,
-            "Image Format": image.format,
-            "Image Mode": image.mode,
-            "Image is Animated": getattr(image, "is_animated", False),
-            "Frames in Image": getattr(image, "n_frames", 1)
-            }
+    # display metadata when image is selected
+    if event == "-FILE LIST-":
+        filename = os.path.join(values["-FOLDER-"], values["-FILE LIST-"][0])
+        metadata = get_image_metadata(filename)
+        window["-METADATA-"].update(str(metadata))
 
-            for label,value in info_dict.items():
-                sg.Text(f"{label:25}: {value}")
-
-            exifdata = image.getexif()
-
-            for tag_id in exifdata:
-                # get the tag name, instead of human unreadable tag id
-                tag = TAGS.get(tag_id, tag_id)
-                data = exifdata.get(tag_id)
-                # decode bytes 
-                if isinstance(data, bytes):
-                    data = data.decode()
-                print(f"{tag:25}: {data}")
-
-        except:
-            pass
-    elif event == "-OPEN-":
-        window = sg.Window("Image Metadata Viewer", layout2)
+    # open a new window with the same features
+    if event == "Open new window":
+        new_window = sg.Window("Image Metadata Viewer", layout)
+        while True:
+            new_event, new_values = new_window.read()
+            if new_event == sg.WIN_CLOSED or new_event == "Exit":
+                break
+            if new_event == "-FOLDER-":
+                folder = new_values["-FOLDER-"]
+                fnames = [f for f in os.listdir(folder)]
+                new_window["-FILE LIST-"].update(fnames)
+            if new_event == "-FILE LIST-":
+                filename = os.path.join(new_values["-FOLDER-"], new_values["-FILE LIST-"][0])
+                metadata = get_image_metadata(filename)
+                new_window["-METADATA-"].update(str(metadata))
+        new_window.close()
 
 window.close()
