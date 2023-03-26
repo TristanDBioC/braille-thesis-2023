@@ -64,8 +64,8 @@ train_dataset, test_dataset = torch.utils.data.random_split(dataset, [train_size
 def collate_fn(batch):
     return tuple(zip(*batch))
 
-train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=1, shuffle=False, num_workers=4, collate_fn=collate_fn)
-test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=4, collate_fn=collate_fn)
+train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=4, shuffle=False, num_workers=4, collate_fn=collate_fn)
+test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=4, shuffle=False, num_workers=4, collate_fn=collate_fn)
 
 # Define device
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
@@ -77,9 +77,16 @@ in_features = model.roi_heads.box_predictor.cls_score.in_features
 model.roi_heads.box_predictor = torchvision.models.detection.faster_rcnn.FastRCNNPredictor(in_features, num_classes)
 
 # Define anchor sizes
-anchor_gen = AnchorGenerator(sizes=((4, 8, 16, 32, 64),),
-                                   aspect_ratios=((0.5, 1.0, 2.0),) * 5)
-model.rpn.anchor_generator = anchor_gen
+# Define custom anchor sizes
+anchor_sizes = ((4,), (8,), (16,), (32,), (64,))
+aspect_ratios = ((0.5, 1.0, 2.0),) * len(anchor_sizes)
+
+# Define anchor generator
+new_anchor_generator = AnchorGenerator(
+    sizes=anchor_sizes,
+    aspect_ratios=aspect_ratios
+)
+model.rpn.anchor_generator = new_anchor_generator
 
 
 # Move model to device
@@ -116,7 +123,7 @@ if __name__ == '__main__':
     print('Number of classess: ',len(dataset.label_map))
     print('Device:', device)
     print('training start time: ', datetime.datetime.now())
-    num_epochs = 1
+    num_epochs = 2
     model.train()
     for epoch in range(num_epochs):
         for batch_idx, (images, targets) in enumerate(train_loader):
